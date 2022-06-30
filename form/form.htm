@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <script src="form.js"></script>
+        <title>Registration form</title>
+        <link rel="stylesheet" href="form.css">
+
+    </head>
+    <body>
+        <form  style = "padding: 35px;">
+            <div class="header-container blue-back "  >
+                <header class="new-container">
+                    <h1 style="color:white" >Registration Form</h1>
+                    <p style="color:white" id="header">Hello, Hows your day going</p>
+                  </header>
+            </div>
+
+            <div class="input-container" style="margin-top: 50px;">
+                  
+                <label >First Name</label><br>
+                <input class="new-input blue-border" type="text" id="fname" >
+            </div>
+            
+            <div class="input-container">  
+                <label >Second Name</label><br>
+                <input class="new-input blue-border" type="text" id="sname" >
+            </div>
+            
+            <div class="input-container">  
+                <label >Date of Birth</label><br>
+                <input class="new-input blue-border" type="text" id="dob" >
+            </div>
+
+            <div class="input-container">  
+                <label >Address</label><br>
+                <input class="new-input blue-border" type="text" id="address" >
+            </div>
+
+            <div class="input-container">  
+                <label >City</label><br>
+                <input class="new-input blue-border" type="text" id="city">
+            </div>
+            <div class="input-container" >  
+                
+                <input type="radio" id="male" name="gender" value="Male" class="blue-back">
+                <label for="male">Male</label>
+                <input type="radio" id="female" name="gender" value="Female" class="blue-back">
+                <label for="female">Female</label>
+                <input type="radio" id="others" name="gender" value="Others" class="blue-back">
+                <label for="others">Others</label>  
+                
+            </div>
+
+            <button id="button" class="button blue-back" style="margin-top: 50px; " type="button" onclick="my()">Register</button>
+        </form>
+        <table style="width: 100%;margin-bottom: 100px;" id="table">
+            <tr >
+                <th>ID</th>
+                <th>First Name
+                    <img src="images/up.png" height="20px" width="10px" style="align-self: right;" id="fname-sort" type="button" 
+                    onclick="sort()" alt="asc">
+                </th>
+                <th>Second Name</th>
+                <th>Date of Birth</th>
+                <th>Address</th>
+                <th>City</th>
+                <th>Gender</th>
+                <th>Edit</th>
+                <th>Delete</th>
+            </tr>
+          </table>
+    </body>
+</html>

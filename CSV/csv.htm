@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <script src="csv.js"></script>
+    
+
+
+    <link rel="stylesheet" href="csv.css">
+    <title>CSV File</title>
+</head>
+<body>
+    
+    <div class="button" >
+        <input id="fileInput" type="file" style="border: 1px solid black;background-color: white;margin-left: 20px;margin-top: 20px;"/>
+        <br>
+        <button id="upload"  onclick="upload()">Upload</button>
+    </div>
+    <div  class="button" >
+        <input type="text" id="filename" style="border: 1px solid black;background: white;margin-left: 20px;margin-top: 20px;">
+        <br>
+        <button id="downlod"onclick="download()" >Download File</button>
+    </div>
+    
+    <hr>
+    <div style="align-items: center;">
+    <button id="insertRow" class="insertbutton" onclick="insertNewRow()">Insert Row</button>
+    <button id="insertColumn" class="insertbutton" onclick="insertNewColumn()">Insert Column</button>
+    </div>
+    <table id="table" >
+        <tr id="row">
+            <td id="column">
+                <input type="text" id="input" >
+            </td>
+        </tr>
+    </table>
+
+
+
+</body>
+</html>
