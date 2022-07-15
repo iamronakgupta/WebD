@@ -1,0 +1,102 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+
+
+.table_button{
+  padding: 10px;
+  background-color: transparent;
+  border: 0px;
+  color: white;
+  font-size: 50px;
+  
+}
+p{
+  color: white;
+}
+
+.border-none {
+  border-collapse: collapse;
+  border: none;
+
+}
+
+.border-none td {
+  border: 2px solid white ;
+}
+
+.border-none tr:first-child td {
+  border-top: none;
+}
+
+.border-none tr:last-child td {
+  border-bottom: none;
+}
+
+.border-none tr td:first-child {
+  border-left: none;
+}
+
+.border-none tr td:last-child {
+  border-right: none;
+}
+.main_back{
+  background-color:rgba(0, 0, 0, 0.801);
+  align-items: center;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+}
+.choice_button{
+  background-color: white;
+  padding: 5px;
+  padding-left: 20px;
+  padding-right: 20px;
+  border-radius: 5px;
+  margin: 2px;
+  border: 2px solid rgba(0, 0, 0, 0.801);
+}
+.white-back{
+  background-color: white;
+  border-radius:2px;
+  border: 0px;
+  margin-bottom: 20px;
+}
